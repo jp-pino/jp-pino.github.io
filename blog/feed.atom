@@ -3,7 +3,7 @@
     <title>Juan Pablo Pino</title>
     <link href="https://jp-pino.github.io/" />
     <link type="application/atom+xml" rel="self" href="https://jp-pino.github.io/blog/feed.atom" />
-    <updated>2019-08-16T18:18:00+00:00</updated>
+    <updated>2019-08-16T18:54:25+00:00</updated>
     <id>https://jp-pino.github.io/blog/feed.atom</id>
     <author>
         <name>Juan Pablo Pino Bravo</name>
@@ -170,6 +170,19 @@ Depending on where your site is hosted, you may need to configure......</summary
         <p>To provide fast, local search of your blog, this starter template comes with a pre-built Vue.js component that uses Fuse.js. <a href="http://fusejs.io/">Fuse.js</a> is a &quot;lightweight fuzzy-search library with <em>no</em> dependencies.&quot; It works by running queries against a JSON index of your content.</p>
 <p>During the <a href="http://jigsaw.tighten.co/docs/building-and-previewing/">build process</a>, the contents of your <code>posts</code> collection is processed by the <code>GenerateIndex.php</code> listener, and an <code>index.json</code> file is generated in the build directory. The <code>Search.vue</code> component provides a search input that queries this local index.</p>
 <p>If you'd like to customize the generation of your search index, take a look at the <code>handle</code> method of the <code>GenerateIndex.php</code> file.</p>    ]]></content>
+</entry>
+            <entry>
+    <id>https://jp-pino.github.io/blog/mopiOS</id>
+    <link type="text/html" rel="alternate" href="https://jp-pino.github.io/blog/mopiOS" />
+    <title>mopiOS</title>
+    <published>2018-12-22T00:00:00+00:00</published>
+    <updated>2018-12-22T00:00:00+00:00</updated>
+    <author>
+        <name>Juan Pablo Pino</name>
+    </author>
+    <summary type="html">As a final project for the course EE445M &amp;quot;Embedded and Real-Time Operating Systems Laboratory&amp;quot; at UT Austin, Cole Morgan and I started developing our own RTOS implementation. mopiOS is still a work in progress and I&#039;m currently working on......</summary>
+    <content type="html"><![CDATA[
+        <p>As a final project for the course EE445M &quot;Embedded and Real-Time Operating Systems Laboratory&quot; at UT Austin, <a href="https://github.com/coleamorgan">Cole Morgan</a> and I started developing our own RTOS implementation. <a href="https://github.com/jp-pino/mopiOS">mopiOS</a> is still a work in progress and I'm currently working on porting it to other microcontrollers and adding more functionality to it.</p>    ]]></content>
 </entry>
             <entry>
     <id>https://jp-pino.github.io/blog/mailchimp-newsletters</id>
