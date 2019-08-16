@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Blog Starter Template</title>
-    <link href="" />
-    <link type="application/atom+xml" rel="self" href="/blog/feed.atom" />
-    <updated>2019-08-16T17:22:32+00:00</updated>
-    <id>/blog/feed.atom</id>
+    <title>Juan Pablo Pino</title>
+    <link href="https://jp-pino.github.io/" />
+    <link type="application/atom+xml" rel="self" href="https://jp-pino.github.io/blog/feed.atom" />
+    <updated>2019-08-16T18:18:00+00:00</updated>
+    <id>https://jp-pino.github.io/blog/feed.atom</id>
     <author>
-        <name>Author Name</name>
+        <name>Juan Pablo Pino Bravo</name>
     </author>
                 <entry>
-    <id>/blog/getting-started</id>
-    <link type="text/html" rel="alternate" href="/blog/getting-started" />
+    <id>https://jp-pino.github.io/blog/getting-started</id>
+    <link type="text/html" rel="alternate" href="https://jp-pino.github.io/blog/getting-started" />
     <title>Getting Started</title>
     <published>2018-12-25T00:00:00+00:00</published>
     <updated>2018-12-25T00:00:00+00:00</updated>
     <author>
-        <name>Author Name</name>
+        <name>Juan Pablo Pino</name>
     </author>
     <summary type="html">This is a starter template for creating a beautiful, customizable blog with minimal effort. You’ll only have to change a few settings and you’re ready to go.
 
@@ -64,13 +64,13 @@ featured: true
 npm run dev</code></pre>    ]]></content>
 </entry>
             <entry>
-    <id>/blog/customizing-your-site</id>
-    <link type="text/html" rel="alternate" href="/blog/customizing-your-site" />
+    <id>https://jp-pino.github.io/blog/customizing-your-site</id>
+    <link type="text/html" rel="alternate" href="https://jp-pino.github.io/blog/customizing-your-site" />
     <title>Customizing Your Site</title>
     <published>2018-12-24T00:00:00+00:00</published>
     <updated>2018-12-24T00:00:00+00:00</updated>
     <author>
-        <name>Author Name</name>
+        <name>Juan Pablo Pino</name>
     </author>
     <summary type="html">This starter template comes pre-loaded with Tailwind CSS, a utility CSS framework that allows you to customize and build complex designs without touching a line of CSS. There are also a few base Sass files in the &lt;code&gt;/source/_assets/sass&lt;/code&gt; folder,......</summary>
     <content type="html"><![CDATA[
@@ -122,13 +122,13 @@ npm run dev</code></pre>    ]]></content>
 }</code></pre>    ]]></content>
 </entry>
             <entry>
-    <id>/blog/custom-404-page</id>
-    <link type="text/html" rel="alternate" href="/blog/custom-404-page" />
+    <id>https://jp-pino.github.io/blog/custom-404-page</id>
+    <link type="text/html" rel="alternate" href="https://jp-pino.github.io/blog/custom-404-page" />
     <title>Custom 404 Pages</title>
     <published>2018-12-23T00:00:00+00:00</published>
     <updated>2018-12-23T00:00:00+00:00</updated>
     <author>
-        <name>Author Name</name>
+        <name>Juan Pablo Pino</name>
     </author>
     <summary type="html">This starter template includes a custom 404 Not Found error page, located at &lt;code&gt;/source/404.blade.php&lt;/code&gt;. To preview the 404 page, you can visit &lt;code&gt;/404&lt;/code&gt; in your browser.
 
@@ -157,13 +157,13 @@ Depending on where your site is hosted, you may need to configure......</summary
 <p>Depending on where your site is hosted, you may need to configure your server to use the custom 404 page. For more details, visit the <a href="https://jigsaw.tighten.co/docs/custom-404-page/">Jigsaw documentation about configuring a custom 404 page</a>.</p>    ]]></content>
 </entry>
             <entry>
-    <id>/blog/fuse-search</id>
-    <link type="text/html" rel="alternate" href="/blog/fuse-search" />
+    <id>https://jp-pino.github.io/blog/fuse-search</id>
+    <link type="text/html" rel="alternate" href="https://jp-pino.github.io/blog/fuse-search" />
     <title>Fuse Search</title>
     <published>2018-12-22T00:00:00+00:00</published>
     <updated>2018-12-22T00:00:00+00:00</updated>
     <author>
-        <name>Author Name</name>
+        <name>Juan Pablo Pino</name>
     </author>
     <summary type="html">To provide fast, local search of your blog, this starter template comes with a pre-built Vue.js component that uses Fuse.js. Fuse.js is a &amp;quot;lightweight fuzzy-search library with no dependencies.&amp;quot; It works by running queries against a JSON index......</summary>
     <content type="html"><![CDATA[
@@ -172,13 +172,13 @@ Depending on where your site is hosted, you may need to configure......</summary
 <p>If you'd like to customize the generation of your search index, take a look at the <code>handle</code> method of the <code>GenerateIndex.php</code> file.</p>    ]]></content>
 </entry>
             <entry>
-    <id>/blog/mailchimp-newsletters</id>
-    <link type="text/html" rel="alternate" href="/blog/mailchimp-newsletters" />
+    <id>https://jp-pino.github.io/blog/mailchimp-newsletters</id>
+    <link type="text/html" rel="alternate" href="https://jp-pino.github.io/blog/mailchimp-newsletters" />
     <title>Mailchimp Newsletters</title>
     <published>2018-11-21T00:00:00+00:00</published>
     <updated>2018-11-21T00:00:00+00:00</updated>
     <author>
-        <name>Author Name</name>
+        <name>Juan Pablo Pino</name>
     </author>
     <summary type="html">Mailchimp is a fantastic marketing platform, and takes the pain out of managing email lists and campaigns. The blog starter template comes with a beautiful pre-built newsletter form, that only needs a Mailchimp list URL to send to.
 To begin accepting......</summary>
@@ -210,13 +210,13 @@ To begin accepting......</summary>
 <p><a href="https://mailchimp.com/help/host-your-own-signup-forms/#Edit_your_Custom_Signup_Form">See how to get your Mailchimp list URL.</a></p>    ]]></content>
 </entry>
             <entry>
-    <id>/blog/my-first-blog-post</id>
-    <link type="text/html" rel="alternate" href="/blog/my-first-blog-post" />
+    <id>https://jp-pino.github.io/blog/my-first-blog-post</id>
+    <link type="text/html" rel="alternate" href="https://jp-pino.github.io/blog/my-first-blog-post" />
     <title>My First Blog Post</title>
     <published>2017-03-23T00:00:00+00:00</published>
     <updated>2017-03-23T00:00:00+00:00</updated>
     <author>
-        <name>Author Name</name>
+        <name>Juan Pablo Pino</name>
     </author>
     <summary type="html">This is the start of your first blog post....</summary>
     <content type="html"><![CDATA[
