@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Juan Pablo Pino</title>
-    <link href="http://localhost:3000/" />
-    <link type="application/atom+xml" rel="self" href="http://localhost:3000/blog/feed.atom" />
-    <updated>2019-08-18T18:59:05+00:00</updated>
-    <id>http://localhost:3000/blog/feed.atom</id>
+    <link href="http://jp-pino.github.io/" />
+    <link type="application/atom+xml" rel="self" href="http://jp-pino.github.io/blog/feed.atom" />
+    <updated>2019-08-18T19:01:35+00:00</updated>
+    <id>http://jp-pino.github.io/blog/feed.atom</id>
     <author>
         <name>Juan Pablo Pino Bravo</name>
     </author>
                 <entry>
-    <id>http://localhost:3000/blog/ieee-comments</id>
-    <link type="text/html" rel="alternate" href="http://localhost:3000/blog/ieee-comments" />
+    <id>http://jp-pino.github.io/blog/ieee-comments</id>
+    <link type="text/html" rel="alternate" href="http://jp-pino.github.io/blog/ieee-comments" />
     <title>Image Processing</title>
     <published>2019-08-18T00:00:00+00:00</published>
     <updated>2019-08-18T00:00:00+00:00</updated>
@@ -24,8 +24,8 @@ Reading this paper, it becomes clear that image processing is a field that may..
 <p>Reading this paper, it becomes clear that image processing is a field that may have far-reaching impacts on our lives. This paper proposes a method for estimating relative visibility from images using a relative CNN-RNN model. According to the paper, this model combines a Convolutional Neural Networks with a Recursive Neural Network which allows it to analyze the images with seven different attention regions in the images. As the authors mention, this approach produces good results in atmospheric visibility estimation and if implemented in a large-scale setup (e.g. using geo-tagged images uploaded to the web), it becomes much more affordable than the expensive scientific equipment used in very sparse weather observatories. <strong><em>Image processing</em></strong> and <strong><em>Robotic Vision</em></strong>, are clearly fields that offer new and innovative solutions to everyday problems today, and in the years to come. </p>    ]]></content>
 </entry>
             <entry>
-    <id>http://localhost:3000/blog/aes-file-encryption</id>
-    <link type="text/html" rel="alternate" href="http://localhost:3000/blog/aes-file-encryption" />
+    <id>http://jp-pino.github.io/blog/aes-file-encryption</id>
+    <link type="text/html" rel="alternate" href="http://jp-pino.github.io/blog/aes-file-encryption" />
     <title>AES</title>
     <published>2019-08-18T00:00:00+00:00</published>
     <updated>2019-08-18T00:00:00+00:00</updated>
@@ -37,8 +37,8 @@ Reading this paper, it becomes clear that image processing is a field that may..
         <p>As a final project for the course &quot;Computer Architecture&quot;, <a href="#">Juan Manuel Ledesma</a> and I designed a device that could cypher and decypher files using the Rijndael algorithm implementation of the Advanced Encryption Standard.</p>    ]]></content>
 </entry>
             <entry>
-    <id>http://localhost:3000/blog/mopiOS</id>
-    <link type="text/html" rel="alternate" href="http://localhost:3000/blog/mopiOS" />
+    <id>http://jp-pino.github.io/blog/mopiOS</id>
+    <link type="text/html" rel="alternate" href="http://jp-pino.github.io/blog/mopiOS" />
     <title>mopiOS</title>
     <published>2019-08-16T00:00:00+00:00</published>
     <updated>2019-08-16T00:00:00+00:00</updated>
