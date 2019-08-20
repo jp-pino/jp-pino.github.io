@@ -8,27 +8,27 @@
 
         <meta property="og:title" content="mopiOS | Juan Pablo Pino"/>
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="http://jp-pino.github.io/blog/mopiOS"/>
+        <meta property="og:url" content="http://localhost:3000/blog/mopiOS"/>
         <meta property="og:description" content="Project showcase" />
 
         <title>Juan Pablo Pino | mopiOS</title>
 
-        <link rel="home" href="http://jp-pino.github.io/">
+        <link rel="home" href="http://localhost:3000/">
         <link rel="icon" href="/favicon.ico">
         <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="Juan Pablo Pino Atom Feed">
 
             <meta property="og:title" content="mopiOS" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://jp-pino.github.io/blog/mopiOS"/>
+    <meta property="og:url" content="http://localhost:3000/blog/mopiOS"/>
     <meta property="og:description" content="RTOS for Embedded Systems" />
 
         
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=40e56b48a02dd1d12dbb">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=8a6e23fe7322a6edf842">
     </head>
 
     <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
-        <header class="flex items-center shadow bg-white border-b h-24 py-4" role="banner">
+        <header class="flex items-center shadow bg-white border-b h-24 py-4 print:hidden" role="banner">
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
                     <a href="/" title="Juan Pablo Pino home" class="inline-flex items-center">
@@ -104,8 +104,8 @@
     </ul>
 </nav>
 
-        <main role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">
-                        <img src="/assets/img/mopiOS.png" alt="mopiOS cover image" class="mb-2 mx-auto">
+        <main role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6 print:py-1 print:px-2">
+                        <img src="/assets/img/mopiOS.png" alt="mopiOS cover image" class="mb-2 mx-auto print:w-3/12 print:absolute print:right-0 print:mt-2 print:mr-2">
     
     <h1 class="leading-none mb-2">mopiOS</h1>
 
@@ -114,35 +114,35 @@
                         <a
                 href="/blog/categories/projects"
                 title="View posts in projects"
-                class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px"
+                class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px print:hidden"
             >projects</a>
                     <a
                 href="/blog/categories/featured"
                 title="View posts in featured"
-                class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px"
+                class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px print:hidden"
             >featured</a>
                     <a
                 href="/blog/categories/mopiOS"
                 title="View posts in mopiOS"
-                class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px"
+                class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px print:hidden"
             >mopiOS</a>
             
-    <div class="border-b border-blue-200 mb-10 pb-4" v-pre>
+    <div class="border-b border-blue-200 mb-10 pb-4 pt-8 print:border-none print:text-sm" v-pre>
         <p>As a final project for the course EE445M &quot;Embedded and Real-Time Operating Systems Laboratory&quot; at UT Austin, <a href="https://github.com/coleamorgan">Cole Morgan</a> and I started developing our own RTOS implementation. <a href="https://github.com/jp-pino/mopiOS">mopiOS</a> is still a work in progress and I'm currently working on porting it to other microcontrollers and adding more functionality to it.</p>    </div>
 
-    <nav class="flex justify-between text-sm md:text-base">
+    <nav class="flex justify-between text-sm md:text-base print:hidden">
         <div>
                     </div>
 
         <div>
-                            <a href="http://jp-pino.github.io/blog/aes-file-encryption" title="Newer Post: AES">
+                            <a href="http://localhost:3000/blog/aes-file-encryption" title="Newer Post: AES">
                     AES &RightArrow;
                 </a>
                     </div>
     </nav>
         </main>
 
-        <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
+        <footer class="bg-white text-center text-sm mt-12 py-4 print:invisible" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center list-reset">
                 <li class="md:mr-2">
                     &copy; <a href="https://tighten.co" title="Tighten website">Tighten</a> 2019.

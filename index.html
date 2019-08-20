@@ -8,23 +8,23 @@
 
         <meta property="og:title" content="Juan Pablo Pino"/>
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="http://jp-pino.github.io/"/>
+        <meta property="og:url" content="http://localhost:3000/"/>
         <meta property="og:description" content="Project showcase" />
 
         <title>Juan Pablo Pino</title>
 
-        <link rel="home" href="http://jp-pino.github.io/">
+        <link rel="home" href="http://localhost:3000/">
         <link rel="icon" href="/favicon.ico">
         <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="Juan Pablo Pino Atom Feed">
 
         
         
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=40e56b48a02dd1d12dbb">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=8a6e23fe7322a6edf842">
     </head>
 
     <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
-        <header class="flex items-center shadow bg-white border-b h-24 py-4" role="banner">
+        <header class="flex items-center shadow bg-white border-b h-24 py-4 print:hidden" role="banner">
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
                     <a href="/" title="Juan Pablo Pino home" class="inline-flex items-center">
@@ -100,7 +100,7 @@
     </ul>
 </nav>
 
-        <main role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">
+        <main role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6 print:py-1 print:px-2">
                         <div class="w-full mb-6">
                             <img src="/assets/img/mopiOS.png" alt="mopiOS cover image" class="mb-6 mx-auto">
             
@@ -109,14 +109,14 @@
             </p>
 
             <h2 class="text-3xl mt-0">
-                <a href="http://jp-pino.github.io/blog/mopiOS" title="Read mopiOS" class="text-gray-900 font-extrabold">
+                <a href="http://localhost:3000/blog/mopiOS" title="Read mopiOS" class="text-gray-900 font-extrabold">
                     mopiOS
                 </a>
             </h2>
 
             <p class="mt-0 mb-4">As a final project for the course EE445M &quot;Embedded and Real-Time Operating Systems Laboratory&quot; at UT Austin, Cole Morgan and I started developing our own RTOS implementation. mopiOS is still a work in progress and I'm currently working on...</p>
 
-            <a href="http://jp-pino.github.io/blog/mopiOS" title="Read - mopiOS" class="uppercase tracking-wide mb-4">
+            <a href="http://localhost:3000/blog/mopiOS" title="Read - mopiOS" class="uppercase tracking-wide mb-4">
                 Read
             </a>
         </div>
@@ -155,18 +155,18 @@
 
     <h2 class="text-3xl mt-0">
         <a
-            href="http://jp-pino.github.io/blog/ieee-comments"
-            title="Read more - Image Processing"
+            href="http://localhost:3000/blog/ieee-comments"
+            title="Read more - Robotic Vision"
             class="text-gray-900 font-extrabold"
-        >Image Processing</a>
+        >Robotic Vision</a>
     </h2>
 
-    <p class="mb-4 mt-0">Comments on &quot;Relative CNN-RNN: Learning Relative Atmospheric Visibility From Images&quot; by Yang You &amp; Cewu Lu from &quot;IEEE Transactions on Image Processing&quot;
-Reading this paper, it...</p>
+    <p class="mb-4 mt-0">
+Comments on &quot;Real-Time Panoramic Image Generation and Motion Deblurring by Using Dynamics-Based Robotic Vision&quot; by Michael Duckjune Kim &amp; Jun Ueda from &quot;IEEE/ASME Transactions on...</p>
 
     <a
-        href="http://jp-pino.github.io/blog/ieee-comments"
-        title="Read more - Image Processing"
+        href="http://localhost:3000/blog/ieee-comments"
+        title="Read more - Robotic Vision"
         class="uppercase font-semibold tracking-wide mb-2"
     >Read</a>
 </div>
@@ -181,7 +181,7 @@ Reading this paper, it...</p>
 
     <h2 class="text-3xl mt-0">
         <a
-            href="http://jp-pino.github.io/blog/aes-file-encryption"
+            href="http://localhost:3000/blog/aes-file-encryption"
             title="Read more - AES"
             class="text-gray-900 font-extrabold"
         >AES</a>
@@ -190,7 +190,7 @@ Reading this paper, it...</p>
     <p class="mb-4 mt-0">As a final project for the course &quot;Computer Architecture&quot;, Juan Manuel Ledesma and I designed a device that could cypher and decypher files using the Rijndael algorithm implementation of...</p>
 
     <a
-        href="http://jp-pino.github.io/blog/aes-file-encryption"
+        href="http://localhost:3000/blog/aes-file-encryption"
         title="Read more - AES"
         class="uppercase font-semibold tracking-wide mb-2"
     >Read</a>
@@ -201,7 +201,7 @@ Reading this paper, it...</p>
 
                     </main>
 
-        <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
+        <footer class="bg-white text-center text-sm mt-12 py-4 print:invisible" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center list-reset">
                 <li class="md:mr-2">
                     &copy; <a href="https://tighten.co" title="Tighten website">Tighten</a> 2019.

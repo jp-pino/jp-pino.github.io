@@ -1,31 +1,50 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Juan Pablo Pino</title>
-    <link href="http://jp-pino.github.io/" />
-    <link type="application/atom+xml" rel="self" href="http://jp-pino.github.io/blog/feed.atom" />
-    <updated>2019-08-18T20:23:54+00:00</updated>
-    <id>http://jp-pino.github.io/blog/feed.atom</id>
+    <link href="http://localhost:3000/" />
+    <link type="application/atom+xml" rel="self" href="http://localhost:3000/blog/feed.atom" />
+    <updated>2019-08-20T00:03:28+00:00</updated>
+    <id>http://localhost:3000/blog/feed.atom</id>
     <author>
         <name>Juan Pablo Pino Bravo</name>
     </author>
                 <entry>
-    <id>http://jp-pino.github.io/blog/ieee-comments</id>
-    <link type="text/html" rel="alternate" href="http://jp-pino.github.io/blog/ieee-comments" />
-    <title>Image Processing</title>
+    <id>http://localhost:3000/blog/ieee-comments</id>
+    <link type="text/html" rel="alternate" href="http://localhost:3000/blog/ieee-comments" />
+    <title>Robotic Vision</title>
     <published>2019-08-18T00:00:00+00:00</published>
     <updated>2019-08-18T00:00:00+00:00</updated>
     <author>
         <name>Juan Pablo Pino</name>
     </author>
-    <summary type="html">Comments on &amp;quot;Relative CNN-RNN: Learning Relative Atmospheric Visibility From Images&amp;quot; by Yang You &amp;amp; Cewu Lu from &amp;quot;IEEE Transactions on Image Processing&amp;quot;
-Reading this paper, it becomes clear that image processing is a field that may......</summary>
+    <summary type="html">
+Comments on &amp;quot;Real-Time Panoramic Image Generation and Motion Deblurring by Using Dynamics-Based Robotic Vision&amp;quot; by Michael Duckjune Kim &amp;amp; Jun Ueda from &amp;quot;IEEE/ASME Transactions on Mechatronics Vol. 21&amp;quot;
+Out of all the papers I&#039;ve......</summary>
     <content type="html"><![CDATA[
-        <p><em>Comments on <a href="https://ieeexplore.ieee.org/document/8412582"><strong>&quot;Relative CNN-RNN: Learning Relative Atmospheric Visibility From Images&quot;</strong></a> by Yang You &amp; Cewu Lu from <a href="https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8468142&amp;punumber=83">&quot;IEEE Transactions on Image Processing&quot;</a></em></p>
-<p>Reading this paper, it becomes clear that image processing is a field that may have far-reaching impacts on our lives. This paper proposes a method for estimating relative visibility from images using a relative CNN-RNN model. According to the paper, this model combines a Convolutional Neural Networks with a Recursive Neural Network which allows it to analyze the images with seven different attention regions in the images. As the authors mention, this approach produces good results in atmospheric visibility estimation and if implemented in a large-scale setup (e.g. using geo-tagged images uploaded to the web), it becomes much more affordable than the expensive scientific equipment used in very sparse weather observatories. <strong><em>Image processing</em></strong> and <strong><em>Robotic Vision</em></strong>, are clearly fields that offer new and innovative solutions to everyday problems today, and in the years to come. </p>    ]]></content>
+        <h3>Panoramic Images</h3>
+<p><em>Comments on <a href="https://ieeexplore.ieee.org/document/7362211"><strong>&quot;Real-Time Panoramic Image Generation and Motion Deblurring by Using Dynamics-Based Robotic Vision&quot;</strong></a> by Michael Duckjune Kim &amp; Jun Ueda from <a href="https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7463574">&quot;IEEE/ASME Transactions on Mechatronics Vol. 21&quot;</a></em></p>
+<p>Out of all the papers I've read for this assignment, this one is the most related to robotics. The method this paper proposes for panoramic image stitching differs from the traditional methods in that the pictures are taken as the camera moves, instead of waiting to capture the image before the camera starts moving. The following diagram from the paper illustrates this:</p>
+<blockquote>
+<p><img src="/assets/img/ieee-panoramic-diagram.png" alt="alt text" /></p>
+<p>Timeline to create a panoramic image from VGA images. The “move” block represents the settling time for a point-to-point motion using the robotic vision system. The “image” block represent the time of image acquisition. The “de” block represents the computation time of image deblurring that was set to 16.5 ms based on the results from Section IV-D.</p>
+</blockquote>
+<p>The proposed method is not only very time-efficient, but it also produces very good results. The actual implementation of this paper involves not only understanding of images and robotics, but interfacing between them too.</p>
+<h3>Atmospheric Visibility Estimation</h3>
+<p><em>Comments on <a href="https://ieeexplore.ieee.org/document/8412582"><strong>&quot;Relative CNN-RNN: Learning Relative Atmospheric Visibility From Images&quot;</strong></a> by Yang You &amp; Cewu Lu from <a href="https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8468142&amp;punumber=83">&quot;IEEE Transactions on Image Processing Vol. 28&quot;</a></em></p>
+<p>Reading this paper, it becomes clear that image processing is a field that may have far-reaching impacts on our lives. This paper proposes a method for estimating relative visibility from images using a relative CNN-RNN model. According to the paper, this model combines a Convolutional Neural Networks with a Recursive Neural Network which allows it to analyze the images with seven different attention regions in the images. As the authors mention, this approach produces good results in atmospheric visibility estimation and if implemented in a large-scale setup (e.g. using geo-tagged images uploaded to the web), it becomes much more affordable than the expensive scientific equipment used in very sparse weather observatories. <strong><em>Image processing</em></strong> and <strong><em>Robotic Vision</em></strong>, are clearly fields that offer new and innovative solutions to everyday problems today. However, when combined with other fields such as Data Science and Machine Learning, the solutions they offer become something out of a sci-fi movie.</p>
+<h3>Object Counting</h3>
+<p><em>Comments on <a href="https://ieeexplore.ieee.org/document/8488575"><strong>&quot;Divide and Count: Generic Object Counting by Image Divisions&quot;</strong></a> by Tobias Stahl, Silvia L. Pintea &amp; Jan C. van Gemert from <a href="https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8478029&amp;punumber=83">&quot;IEEE Transactions on Image Processing Vol. 28&quot;</a></em></p>
+<p>This paper proposes a method for generic object counting in images. From previous experiences, we can tell that objecting counting is essential for industrial applications, but as the paper mentions, emerging applications include fauna monitoring, traffic control, crowd management, etc. Similarly to the previous paper, the authors of this one use <strong><em>Data Science</em></strong> and <strong><em>Machine Learning</em></strong> to implement innovative solutions in the field of <strong><em>Image Processing</em></strong>. It becomes clear that these fields are becoming intertwined as research advances. The most common object counting applications however, have been constrained by the type of object that is being counted. There are car counting systems. There are fruit counting systems. There are pill counting systems. But all these systems work independently, are trained individually and only work for the specific object they were trained to count. I find the proposal in this paper appealing, because a system that can reliably count objects of any type, is more portable to other applications and can improve new and existing systems without investing too much effort on training.</p>
+<h3>Underwater Image Enhancement</h3>
+<p><em>Comments on <a href="https://ieeexplore.ieee.org/document/8058463"><strong>&quot;Color Balance and Fusion for Underwater Image Enhancement&quot;</strong></a> by Codruta O. Ancuti, Cosmin Ancuti, Christophe De Vleeschouwer, &amp; Philippe Bekaert from <a href="https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8071125&amp;punumber=83">&quot;IEEE Transactions on Image Processing Vol. 27&quot;</a></em></p>
+<p>I found this paper really interesting because the solution it proposes relates to an issue I (and many of us) have personally faced. Ever since the first waterproof cameras came out, underwater photography has faced many issues. Any camera can take a great picture on land, however light propagates differently underwater and thus distorts the shapes and colors in our images. Without special equipment or expensive hardware, the authors have developed a method to correct these distortions and generate an accurate image using only software. Their solution is pretty straightforward and, unlike the previous two papers, it has nothing to do with machine learning. It implements a pipeline of <em>only</em> image processing that produces amazing results.</p>
+<h3>Image Deblurring</h3>
+<p><em>Comments on <a href="https://ieeexplore.ieee.org/document/8488519"><strong>&quot;Graph-Based Blind Image Deblurring From a Single Photograph&quot;</strong></a> by Yuanchao Bai, Gene Cheung, Xianming Liu, &amp; Wen Gao from <a href="https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8511005&amp;punumber=83">&quot;IEEE Transactions on Image Processing Vol. 28&quot;</a></em></p>
+<p>This paper describes the method implemented by the authors to deblur images. I don't pretend to understand everything the paper explains in regard to their algorithm, but I get the base of it. In order to get the original image they iteratively estimate the blur kernel and use it to calculate a skeleton image, until both the blur kernel and the image no longer change. I found this paper very interesting and was impressed by the very realistic results they show. The images resulting from their algorithm clearly show an deblurred version of the original. This could have countless practical applications and I think is a very good example of what <em><strong>Image Processing</strong></em> entails: both understanding of how computers perceive images, and of other fields of math and science such as <em><strong>Probability</strong></em> and <em><strong>Linear Algebra</strong></em>.</p>    ]]></content>
 </entry>
             <entry>
-    <id>http://jp-pino.github.io/blog/aes-file-encryption</id>
-    <link type="text/html" rel="alternate" href="http://jp-pino.github.io/blog/aes-file-encryption" />
+    <id>http://localhost:3000/blog/aes-file-encryption</id>
+    <link type="text/html" rel="alternate" href="http://localhost:3000/blog/aes-file-encryption" />
     <title>AES</title>
     <published>2019-08-18T00:00:00+00:00</published>
     <updated>2019-08-18T00:00:00+00:00</updated>
@@ -37,8 +56,8 @@ Reading this paper, it becomes clear that image processing is a field that may..
         <p>As a final project for the course &quot;Computer Architecture&quot;, <a href="#">Juan Manuel Ledesma</a> and I designed a device that could cypher and decypher files using the Rijndael algorithm implementation of the Advanced Encryption Standard.</p>    ]]></content>
 </entry>
             <entry>
-    <id>http://jp-pino.github.io/blog/mopiOS</id>
-    <link type="text/html" rel="alternate" href="http://jp-pino.github.io/blog/mopiOS" />
+    <id>http://localhost:3000/blog/mopiOS</id>
+    <link type="text/html" rel="alternate" href="http://localhost:3000/blog/mopiOS" />
     <title>mopiOS</title>
     <published>2019-08-16T00:00:00+00:00</published>
     <updated>2019-08-16T00:00:00+00:00</updated>
