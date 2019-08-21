@@ -3,7 +3,7 @@
     <title>Juan Pablo Pino</title>
     <link href="http://jp-pino.github.io/" />
     <link type="application/atom+xml" rel="self" href="http://jp-pino.github.io/blog/feed.atom" />
-    <updated>2019-08-21T14:50:46+00:00</updated>
+    <updated>2019-08-21T14:56:34+00:00</updated>
     <id>http://jp-pino.github.io/blog/feed.atom</id>
     <author>
         <name>Juan Pablo Pino Bravo</name>
@@ -11,7 +11,7 @@
                 <entry>
     <id>http://jp-pino.github.io/blog/ieee-comments</id>
     <link type="text/html" rel="alternate" href="http://jp-pino.github.io/blog/ieee-comments" />
-    <title>Image Processing Applications</title>
+    <title>Image Processing</title>
     <published>2019-08-18T00:00:00+00:00</published>
     <updated>2019-08-18T00:00:00+00:00</updated>
     <author>
