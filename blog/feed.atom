@@ -3,12 +3,25 @@
     <title>Juan Pablo Pino</title>
     <link href="http://jp-pino.github.io/" />
     <link type="application/atom+xml" rel="self" href="http://jp-pino.github.io/blog/feed.atom" />
-    <updated>2019-08-21T14:56:34+00:00</updated>
+    <updated>2019-08-27T16:45:52+00:00</updated>
     <id>http://jp-pino.github.io/blog/feed.atom</id>
     <author>
         <name>Juan Pablo Pino Bravo</name>
     </author>
                 <entry>
+    <id>http://jp-pino.github.io/blog/aes-file-encryption</id>
+    <link type="text/html" rel="alternate" href="http://jp-pino.github.io/blog/aes-file-encryption" />
+    <title>AES</title>
+    <published>2019-08-18T00:00:00+00:00</published>
+    <updated>2019-08-18T00:00:00+00:00</updated>
+    <author>
+        <name>Juan Pablo Pino</name>
+    </author>
+    <summary type="html">As a final project for the course &amp;quot;Computer Architecture&amp;quot;, Juan Manuel Ledesma and I designed a device that could cypher and decypher files using the Rijndael algorithm implementation of the Advanced Encryption Standard....</summary>
+    <content type="html"><![CDATA[
+        <p>As a final project for the course &quot;Computer Architecture&quot;, <a href="#">Juan Manuel Ledesma</a> and I designed a device that could cypher and decypher files using the Rijndael algorithm implementation of the Advanced Encryption Standard.</p>    ]]></content>
+</entry>
+            <entry>
     <id>http://jp-pino.github.io/blog/ieee-comments</id>
     <link type="text/html" rel="alternate" href="http://jp-pino.github.io/blog/ieee-comments" />
     <title>Image Processing</title>
@@ -43,19 +56,6 @@ Out of all the papers I&#039;ve......</summary>
 <p>This paper describes the method implemented by the authors to deblur images. I don't pretend to understand everything the paper explains in regard to their algorithm, but I get the base of it. In order to get the original image they iteratively estimate the blur kernel and use it to calculate a skeleton image, until both the blur kernel and the image no longer change. I found this paper very interesting and was impressed by the very realistic results they show. The images resulting from their algorithm clearly show an deblurred version of the original. This could have countless practical applications and I think is a very good example of what <em><strong>Image Processing</strong></em> entails: both understanding of how computers perceive images, and of other fields of math and science such as <em><strong>Probability</strong></em> and <em><strong>Linear Algebra</strong></em>.</p>    ]]></content>
 </entry>
             <entry>
-    <id>http://jp-pino.github.io/blog/aes-file-encryption</id>
-    <link type="text/html" rel="alternate" href="http://jp-pino.github.io/blog/aes-file-encryption" />
-    <title>AES</title>
-    <published>2019-08-18T00:00:00+00:00</published>
-    <updated>2019-08-18T00:00:00+00:00</updated>
-    <author>
-        <name>Juan Pablo Pino</name>
-    </author>
-    <summary type="html">As a final project for the course &amp;quot;Computer Architecture&amp;quot;, Juan Manuel Ledesma and I designed a device that could cypher and decypher files using the Rijndael algorithm implementation of the Advanced Encryption Standard....</summary>
-    <content type="html"><![CDATA[
-        <p>As a final project for the course &quot;Computer Architecture&quot;, <a href="#">Juan Manuel Ledesma</a> and I designed a device that could cypher and decypher files using the Rijndael algorithm implementation of the Advanced Encryption Standard.</p>    ]]></content>
-</entry>
-            <entry>
     <id>http://jp-pino.github.io/blog/mopiOS</id>
     <link type="text/html" rel="alternate" href="http://jp-pino.github.io/blog/mopiOS" />
     <title>mopiOS</title>
@@ -67,5 +67,30 @@ Out of all the papers I&#039;ve......</summary>
     <summary type="html">As a final project for the course EE445M &amp;quot;Embedded and Real-Time Operating Systems Laboratory&amp;quot; at UT Austin, Cole Morgan and I started developing our own RTOS implementation. mopiOS is still a work in progress and I&#039;m currently working on......</summary>
     <content type="html"><![CDATA[
         <p>As a final project for the course EE445M &quot;Embedded and Real-Time Operating Systems Laboratory&quot; at UT Austin, <a href="https://github.com/coleamorgan">Cole Morgan</a> and I started developing our own RTOS implementation. <a href="https://github.com/jp-pino/mopiOS">mopiOS</a> is still a work in progress and I'm currently working on porting it to other microcontrollers and adding more functionality to it.</p>    ]]></content>
+</entry>
+            <entry>
+    <id>http://jp-pino.github.io/blog/mopiOS-new-features</id>
+    <link type="text/html" rel="alternate" href="http://jp-pino.github.io/blog/mopiOS-new-features" />
+    <title>New Features!</title>
+    <published>2019-08-16T00:00:00+00:00</published>
+    <updated>2019-08-16T00:00:00+00:00</updated>
+    <author>
+        <name>Juan Pablo Pino</name>
+    </author>
+    <summary type="html">Big news for mopiOS!! There are many new features for semaphores, threads, debugging, and so much more! Among the new features you&#039;ll find:
+
+Threads are now named so it is easier to identify them.
+Memory for TCBs is now dynamically allocated on the......</summary>
+    <content type="html"><![CDATA[
+        <p>Big news for mopiOS!! There are many new features for semaphores, threads, debugging, and so much more! Among the new features you'll find:</p>
+<ul>
+<li>Threads are now named so it is easier to identify them.</li>
+<li>Memory for TCBs is now dynamically allocated on the Heap.</li>
+<li>You can now print the jitter histogram directly from the CLI, just use <code>jitter -h</code>.</li>
+<li>Threads can now be killed from another thread through <code>killall</code> functionality.</li>
+<li>Semaphores now register on a list upon initialization, making it easier to find TCBs that are blocking inside them.</li>
+<li>The new command <code>ts</code> now counts the number of active threads. To list all threads with their names and status add the flag <code>-l</code>.</li>
+</ul>
+<p>More is on the way! I'm currently working on a port of <strong>rosserial_client</strong> for mopiOS, to enable communication with the ROS platform. See the development on this port <a href="https://github.com/jp-pino/rosserial-mopiOS">here</a>.</p>    ]]></content>
 </entry>
     </feed>
