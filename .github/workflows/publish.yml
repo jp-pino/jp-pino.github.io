@@ -11,11 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: bahmutov/npm-install@v1.8.36
       - name: Install dependencies
         run: |
           composer install
-          npm install
+      - uses: bahmutov/npm-install@v1.8.36
+        with:
+          working-directory: .
       - name: Generate repos
         run: |
           GITHUB_TOKEN=${{github.token}} npm run generate
