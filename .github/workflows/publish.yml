@@ -17,6 +17,7 @@ jobs:
       - uses: bahmutov/npm-install@v1.8.36
         with:
           working-directory: .
+          useLockFile: false
       - name: Generate repos
         run: |
           GITHUB_TOKEN=${{github.token}} npm run generate
