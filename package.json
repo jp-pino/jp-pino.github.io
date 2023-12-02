@@ -1,6 +1,7 @@
 {
     "private": true,
     "scripts": {
+        "generate": "node generate.js",
         "dev": "mix",
         "watch": "mix watch",
         "prod": "mix --production"
