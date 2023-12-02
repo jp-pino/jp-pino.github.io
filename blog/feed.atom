@@ -3,7 +3,7 @@
     <title>Juan Pablo Pino</title>
     <link href="https://jp-pino.github.io/blog" />
     <link type="application/atom+xml" rel="self" href="https://jp-pino.github.io/blog/feed.atom" />
-    <updated>2023-11-30T14:36:11+00:00</updated>
+    <updated>2023-12-02T17:45:41+00:00</updated>
     <id>https://jp-pino.github.io/blog/feed.atom</id>
     <author>
         <name>Juan Pablo Pino</name>
@@ -15,7 +15,7 @@
     <published>2019-08-27T00:00:00+00:00</published>
     <updated>2019-08-27T00:00:00+00:00</updated>
     <author>
-        <name>Author Name</name>
+        <name>Juan Pablo Pino</name>
     </author>
     <summary type="html">Big news for mopiOS!!! There are many new features for semaphores, threads, debugging, and so much more! Among the new features you&#039;ll find:
 * Threads are now named so it is easier to identify them.
@@ -39,7 +39,7 @@
     <published>2019-08-18T00:00:00+00:00</published>
     <updated>2019-08-18T00:00:00+00:00</updated>
     <author>
-        <name>Author Name</name>
+        <name>Juan Pablo Pino</name>
     </author>
     <summary type="html">Comments on &quot;Real-Time Panoramic Image Generation and Motion Deblurring by Using Dynamics-Based Robotic Vision&quot; by Michael Duckjune Kim &amp;amp; Jun Ueda from &quot;IEEE/ASME Transactions on Mechatronics Vol. 21&quot;
 
@@ -91,7 +91,7 @@ Out of all the papers I&#039;ve read for this......</summary>
     <published>2019-08-18T00:00:00+00:00</published>
     <updated>2019-08-18T00:00:00+00:00</updated>
     <author>
-        <name>Author Name</name>
+        <name>Juan Pablo Pino</name>
     </author>
     <summary type="html">As a final project for the course &quot;Computer Architecture&quot;, Juan Manuel Ledesma and I designed a device that could cypher and decypher files using the Rijndael algorithm implementation of the Advanced Encryption Standard....</summary>
     <content type="html"><![CDATA[
@@ -105,7 +105,7 @@ Out of all the papers I&#039;ve read for this......</summary>
     <published>2019-08-16T00:00:00+00:00</published>
     <updated>2019-08-16T00:00:00+00:00</updated>
     <author>
-        <name>Author Name</name>
+        <name>Juan Pablo Pino</name>
     </author>
     <summary type="html">As a final project for the course EE445M &quot;Embedded and Real-Time Operating Systems Laboratory&quot; at UT Austin, Cole Morgan and I started developing our own RTOS implementation. mopiOS is still a work in progress and I&#039;m currently working on porting it to......</summary>
     <content type="html"><![CDATA[
