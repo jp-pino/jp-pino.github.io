@@ -14,10 +14,11 @@ jobs:
       - name: Install dependencies
         run: |
           composer install
-      - uses: bahmutov/npm-install@v1.8.36
+      - uses: actions/setup-node@v4
         with:
-          working-directory: .
-          useLockFile: false
+          node-version: 18
+          cache-dependency-path: ./package.json
+          cache: 'npm'
       - name: Generate repos
         run: |
           GITHUB_TOKEN=${{github.token}} npm run generate
