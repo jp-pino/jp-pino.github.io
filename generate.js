@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-console.log("Toke: ", process.env.GITHUB_TOKEN);
+console.log("Token: ", process.env.GITHUB_TOKEN);
 
 // Read environment variables
 let config = {
