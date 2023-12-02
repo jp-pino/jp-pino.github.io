@@ -12,6 +12,7 @@ let config = {
 async function getRepos() {
   let req = await fetch("https://api.github.com/users/jp-pino/repos", config);
   let json = await req.json();
+  console.log(json);
 
   while (req.headers.get('Link') && req.headers.get('Link').includes('rel="next"')) {
     const nextUrl = req.headers.get('Link').split(';')[0].slice(1, -1);
