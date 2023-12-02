@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: nmerget/npm-cache-action@v1.0.0
+      - uses: uses: bahmutov/npm-install@v1.8.36
       - name: Install dependencies
         run: |
           composer install
