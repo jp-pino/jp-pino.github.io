@@ -2,7 +2,7 @@
 
 @section('body')
 <div class="flex flex-col md:flex-row md:-mx-12">
-    <div class="md:basis-9/12 md:pr-6">
+    <div class="md:basis-8/12 md:pr-6">
         @foreach ($posts->where('featured', true) as $featuredPost)
         <div class="w-full mb-6">
             @if ($featuredPost->cover_image)
@@ -31,7 +31,7 @@
         @endif
         @endforeach
     </div>
-    <div class="md:basis-3/12">
+    <div class="md:basis-4/12">
         <div class="border-2 rounded-md p-4">
             <h2 class="text-2xl font-bold mb-4">Projects</h2>
             <div id="project-list" class="flex flex-col items-center h-[50vh] overflow-y-auto">

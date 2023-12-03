@@ -1,3 +1,4 @@
+const { async } = require('fast-glob');
 const fs = require('fs');
 
 // Read environment variables
@@ -30,6 +31,7 @@ async function getRepos() {
       url: project.html_url,
       language: project.language,
       stars: project.stargazers_count,
+      is_fork: project.fork,
       forks: project.forks_count,
       watchers: project.watchers_count,
       has_pages: project.has_pages,
@@ -64,26 +66,29 @@ getRepos().then((projects) => {
     </p>`;
     }
     html += `
-    <div class="flex flex-row justify-between text-xs mt-3">`;
+    <div class="flex flex-row justify-between text-xs mt-3">
+      <div>
+        <i class="fa-solid fa-code-fork pr-2 pl-1 group-hover:text-gray-300 ${project.is_fork ? "" : "hidden"}"></i>`;
 
     if (project.language) {
       html += `
-      <span class="text-xs text-gray-200 rounded-sm bg-gray-800 group-hover:bg-gray-100 group-hover:text-gray-500 py-1 px-2">
-          ${project.language}
-      </span>`;
+        <span class="text-xs text-gray-200 rounded-sm bg-gray-800 group-hover:bg-gray-100 group-hover:text-gray-500 py-1 px-2">
+            ${project.language}
+        </span>`;
     }
+    html += `</div>`;
     if (project.has_pages) {
       html += `
       <a href="https://jp-pino.github.io/${project.name}" class="duration-200 text-gray-500 hover:text-gray-800 group-hover:text-gray-300 group-hover:hover:text-white py-1">
         <i class="fa-solid fa-book"></i> Docs
-      </a>`;
+      </a> `;
     }
     html += `
-    </div>
-  </div>`;
+    </div >
+  </div > `;
   });
 
-  html += `</div>`;
+  html += `</div > `;
 
   fs.writeFile('source/projects.blade.php', html, (err) => {
     if (err) throw err;
