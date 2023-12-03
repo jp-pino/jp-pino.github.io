@@ -1,4 +1,3 @@
-const { async } = require('fast-glob');
 const fs = require('fs');
 
 // Read environment variables
